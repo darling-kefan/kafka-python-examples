@@ -6,7 +6,6 @@ from kafka import KafkaConsumer, KafkaProducer, TopicPartition
 from kafka.client import KafkaClient
 
 # qa kafka brokers
-bootstrap_servers = ['115.159.123.178:9092']
 bootstrap_servers = ['10.10.51.14:19091','10.10.51.14:19092','10.10.51.14:19093']
 
 class Producer(object):
